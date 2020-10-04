@@ -1,0 +1,118 @@
+/*Body Section*/
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/*Header section*/
+
+
+/*Main Section*/
+main{
+    background-color: rgb(238, 238, 238);
+    width: 90vw;
+    margin: 30px auto;
+    
+}
+
+header #title{
+    text-align: center;
+    color:black;
+    font-weight: 300;
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 10px;
+}
+
+
+
+header h2{
+    font-weight: 200;
+    text-align: center;
+    font-size: 1.2rem;
+    border-top: 1px solid black;
+    border-radius: 30px;
+    padding-top: 5px;
+    max-width:50%;
+    margin: 20px auto;
+/*    text-decoration: overline;*/
+/*    padding: 10px;*/
+}
+
+/*Image section*/
+#img-div{
+/*    width: 100vw;*/
+/*    height: 380px;*/
+    background-color: white;
+    padding: 20px;
+    text-align: left;
+}
+
+#img-div img{
+    width: 100%;
+}
+
+
+#tribute-info{
+    /* background: black; */
+    /* background-color: rgba(0,0,0,.5); */
+    padding: .5rem 2rem;;
+    text-align: left;
+    line-height: 1.6;
+    /* max-width: 95vw;
+    margin: auto; */
+}
+
+#sub-title{
+    text-align: center;
+    text-transform: uppercase;
+/*    text-decoration:overline;*/
+}
+#sub-title h3{
+    font-weight: 300;
+    font-size: 1.3rem;
+    max-width: 50%;
+    margin: 10px auto;
+    border-radius: 20px;
+    border-bottom: 1px solid black;
+}
+#tribute-info p{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+
+i{
+    color: blue;
+}
+
+@media(max-width: 800px){
+    
+    header #title{
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    
+    #tribute-info p{
+        font-size: .75rem;
+    }
+    
+    header h2{
+        
+    }
+    
+    header h2, #sub-title h3{
+        border-style: none;
+        font-size: .9rem;
+        max-width: 100%;
+/*        display: none;*/
+    }
+}
